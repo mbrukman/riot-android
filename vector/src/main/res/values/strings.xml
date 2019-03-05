@@ -92,8 +92,6 @@
     <string name="done">Done</string>
     <string name="abort">Abort</string>
     <string name="ignore">Ignore</string>
-    <string name="update_password">Update Password</string>
-
 
     <!-- actions -->
     <string name="action_exit">Exit</string>
@@ -820,12 +818,15 @@
 
     <string name="settings_password">Password</string>
     <string name="settings_change_password">Change password</string>
-    <string name="settings_old_password">Old password</string>
+    <string name="settings_old_password">Current password</string>
     <string name="settings_new_password">New password</string>
-    <string name="settings_confirm_password">Confirm password</string>
+    <string name="settings_confirm_password">Confirm new password</string>
+    <string name="settings_change_password_submit">Update Password</string>
     <string name="settings_fail_to_update_password">Failed to update password</string>
+    <string name="settings_fail_to_update_password_invalid_current_password">The password is not valid</string>
     <string name="settings_password_updated">Your password has been updated</string>
     <string name="settings_unignore_user">Show all messages from %s?\n\nNote that this action will restart the app and it may take some time.</string>
+    <string name="passwords_do_not_match">Passwords do not match</string>
 
     <string name="settings_delete_notification_targets_confirmation">Are you sure you want to remove this notification target?</string>
 
@@ -1188,7 +1189,6 @@
 
     <!-- Other errors -->
     <string name="unknown_error">Sorry, an error occurred</string>
-    <string name="invalid_pass_error">Old Invalid Password!</string>
 
     <!-- Expand/Collapse room member changes -->
     <string name="merged_events_expand">expand</string>
@@ -1369,7 +1369,4 @@ Why choose Riot.im?
     <string name="autodiscover_well_known_autofill_dialog_message">Riot detected a custom server configuration for your userId domain \"%s\":\n%s</string>
     <string name="autodiscover_well_known_autofill_confirm">Use Config</string>
 
-    <!--Information Labels text-->
-    <string name="passwords_not_match">Passwords do not match</string>
-    <string name="passwords_match">Passwords match</string>
 </resources>
